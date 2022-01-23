@@ -26,10 +26,17 @@
     background: #8be9e1;
     color: #301c6b;
     border-radius: 7px;
-    text-decoration: none;
+    text-decoration: none!important
  }
  .logoImage{
     max-height: 50px;
     width: auto;
+ }
+ .nav-link {
+    color:#ffffff;
+    font-family: nunito sans,Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .3px;
  }
  /* Here is Header section end */
