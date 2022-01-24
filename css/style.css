@@ -1,26 +1,34 @@
-*{
-  font-family: 'Nunito', sans-serif;
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  text-transform: capitalize;
-  outline: none;
-  border:none;
-  text-decoration: none;
-  transition: all .2s linear;
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
 }
 
+h2 {
+    font-size: 36px;
+    line-height: 1.35;
+    font-family: noto sans;
+    font-weight: 700;
+    color: #040222;
+    font-style: normal;
+}
 
 /* Here is Header section start */
- .header {
-    background-image:url(../images/banner.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
+.header {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
- }
- .hederButton {
+}
+.hederButton {
     font-size: 16px;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     font-family: nunito sans;
     font-weight: 700;
     padding: 10px 24px;
@@ -28,11 +36,11 @@
     background: #8be9e1;
     color: #301c6b;
     border-radius: 7px;
- }
+}
 
- .hederButton2 {
+.hederButton2 {
     font-size: 16px;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     font-family: nunito sans;
     font-weight: 700;
     padding: 10px 24px;
@@ -40,144 +48,174 @@
     color: #8be9e1;
     border-radius: 7px;
     margin-left: 20px;
- }
- .hederButton2:hover {
-   background: #53dbce;
-   color: #301c6b;
- }
- .hederButton:hover {
-      background: #53dbce;
- }
- .logoImage{
+}
+.hederButton2:hover {
+    background: #53dbce;
+    color: #301c6b;
+}
+.hederButton:hover {
+    background: #53dbce;
+}
+.logoImage {
     max-height: 50px;
     width: auto;
-    cursor:pointer;
- }
- .nav-link {
-    color:#ffffff;
-    font-family: nunito sans,Sans-serif;
+    cursor: pointer;
+}
+.nav-link {
+    color: #ffffff;
+    font-family: nunito sans, Sans-serif;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: .3px;
- }
+    letter-spacing: 0.3px;
+}
 
+.bottomHeader {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
 
- .bottomHeader {
-   display: flex;
-   margin-right: auto;
-   margin-left: auto;
-   margin-top: 60px;
-   flex-wrap: wrap;
- }
-
- .rightSideHeader {
+.rightSideHeader {
     padding: 0px 20px;
- }
- .rightSideHeader img{
+}
+.rightSideHeader img {
     margin-top: 50px;
- }
+}
 
- .leftSideHeader {
+.leftSideHeader {
     padding: 0px 20px;
- }
- .leftSideHeader h2{
-    color:#ffffff;
+}
+.leftSideHeader h2 {
+    color: #ffffff;
     font-size: 55px;
     line-height: 1.2;
     font-family: noto sans;
     font-weight: 700;
- }
- .leftSideHeader p{
+}
+.leftSideHeader p {
     margin-top: 20px;
     color: #fff;
     font-size: 22px;
     line-height: 1.4em;
- }
+}
 
- .leftHeaderButton {
+.leftHeaderButton {
     margin: -8px -13px;
     flex-wrap: wrap;
     -webkit-box-align: center;
     align-items: center;
     margin-top: 20px;
- }
- .worksWith {
+}
+.worksWith {
     margin-top: 30px;
- }
- .logoImage2 {
-   padding: 0px 10px;
-   height: 20px;
-   width: 45px;
-   margin-top: 22px;
-   cursor:pointer;
-   color:#fff;
- }
- /* Here is Header section end */
+}
+.logoImage2 {
+    padding: 0px 10px;
+    height: 20px;
+    width: 45px;
+    margin-top: 22px;
+    cursor: pointer;
+    color: #fff;
+}
+/* Here is Header section end */
 
-
-
- /* Here is overview section start */
- .overview {
-   background-image:url(../images/Section-0.jpg);
-   background-size:cover;
-   background-repeat:no-repeat;
-   height: 80vh;
- }
- .row {
+/* Here is overview section start */
+.overview {
+    background-image: url(../images/Section-0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.row {
     margin: 0 auto;
- }
- .overviewLeftSide {
-   background-image:url(../images/Group2-1.png);
-   background-size:cover;
-   background-repeat:no-repeat;
-   height: 50vh;
- }
+}
+.overviewLeftSide {
+    background-image: url(../images/Group2-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
 
- .task {
+.task {
     margin: 0 20px 0 0;
     padding: 10px 0 0 10px;
     background-color: rgb(223, 83, 83);
-    transition: background .3s;
+    transition: background 0.3s;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0 0 10px 0 rgb(91 63 23);
     padding: 5px 10px;
     width: 50%;
- }
- /* Here is overview section end */
+}
+/* Here is overview section end */
 
 
 
- /* Here is pricing section start */
- .pricing {
-    margin-top: 50px;
-    background-image:url(../images/banner-clean.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    height: 100vh;
- }
- .cardBody {
-    width: 100%;
-    margin: auto;
- }
- .card-group {
-    margin-top: 20px;
- }
- .card {
-   display: flex;
-   background-color: #f7f3f2;
-   transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-   margin: 0 20px -60px 0;
-   padding: 35px 40px 40px;
-   border-radius: 15px 15px 15px 15px;
+/* Here is basic feature start */
+.section-button {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 20px 11px;
+    background-color: #f7f4fd;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    color: #763de7;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
 }
 
- /* Here is pricing section end */
+.feature-section .feature-header p {
+    width: 50%;
+    margin: 0 auto;
+}
 
+.feature-card {
+    background-color: #f7f4fd;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.feature-card h2{
+   margin-top: 20px;
+}
+.feature-card:not(:last-child) {
+    margin-right: 80px;
+}
+/* Here is basic features section end */
 
+/* Here is pricing section start */
+.pricing {
+    margin-top: 50px;
+    background-image: url(../images/banner-clean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.cardBody {
+    width: 100%;
+    margin: auto;
+}
+.card-group {
+    margin-top: 20px;
+}
+.card {
+    display: flex;
+    background-color: #f7f3f2;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+        box-shadow 0.3s;
+    margin: 0 20px -60px 0;
+    padding: 35px 40px 40px;
+    border-radius: 15px 15px 15px 15px;
+}
 
-            /* Here is improve section start */
+/* Here is pricing section end */
+
+/* Here is improve section start */
 .improve h1 {
-   font-size: 48px;
+    font-size: 48px;
     line-height: 1.2;
     font-family: noto sans;
     font-weight: 700;
@@ -185,9 +223,9 @@
     font-style: normal;
 }
 
-.improve button{
+.improve button {
     font-size: 16px;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     font-family: nunito sans;
     font-weight: 700;
     padding: 14px 24px;
@@ -197,81 +235,94 @@
     border-radius: 7px;
 }
 
-            /* Here is improve section end */
+/* Here is improve section end */
 
-
-            /* Here is footer section start */
+/* Here is footer section start */
 .footer-area {
-   padding: 90px 0 60px 0;
-   background: #5d21d2;
-   color:#fff;
+    padding: 90px 0 60px 0;
+    background: #5d21d2;
+    color: #fff;
 }
 
 .footer-social {
-   margin-top: 20px;
+    margin-top: 20px;
 }
 
-.single-footer h3{
-   font-weight: 500;
-   margin-bottom: 25px;
-   color:#fff;
-   font-family: Merienda;
+.single-footer h3 {
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family: Merienda;
 }
 
 .link-area li {
-   padding: 5px 5px 5px 0;
-   list-style: none;
-   text-decoration: none;
-   cursor:pointer;
+    padding: 5px 5px 5px 0;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
 }
-.link-area li a{
-   text-transform: capitalize;
-   color:rgb(240, 232, 232);
-   font-family: Merienda;
-   text-decoration: none;
+.link-area li a {
+    text-transform: capitalize;
+    color: rgb(240, 232, 232);
+    font-family: Merienda;
+    text-decoration: none;
 }
 
-.link-area li a i{
-   margin-right: 10px;
-   color:#f7f3f2;
-   text-decoration: none;
+.link-area li a i {
+    margin-right: 10px;
+    color: #f7f3f2;
+    text-decoration: none;
 }
 
 .link-area {
-   padding: 0;
-   text-decoration: none;
+    padding: 0;
+    text-decoration: none;
 }
 .single-footer p {
-   font-family: Merienda;
+    font-family: Merienda;
 }
 .footer-social li a {
-   width: 30px;
-   height: 30px;
-   display: inline-block;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
 }
-.footer-social li a i{
-   color:#fff;
-   padding: 8px;
-   font-size: 20px;
+.footer-social li a i {
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
 }
-.footer-social li a i:hover{
-   color:rgb(211, 205, 205);
-   padding: 8px;
+.footer-social li a i:hover {
+    color: rgb(211, 205, 205);
+    padding: 8px;
 }
 .footerInputArea {
-   padding: 10px 15px;
-   border-radius:5px;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 .footerAreaButton {
-   padding: 10px 15px;
-   border-radius:5px;
-   background-color:#53dbce;
-   margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #53dbce;
+    margin-top: 20px;
 }
 
 .footerAreaButton:hover {
-   background-color:#18e2ce;
+    background-color: #18e2ce;
 }
-    /* Here is footer section end */
+/* Here is footer section end */
 
 
+.main-call-to-action {
+    background-color: #f7f4fd;
+    padding: 34px;
+    border-radius: 15px;
+}
+
+.main-call-to-action img {
+    width: 280px;
+    height: 258px;
+}
+
+.left-call-action {
+    margin-right: 20px;
+}
