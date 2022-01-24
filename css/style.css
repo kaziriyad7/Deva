@@ -122,6 +122,15 @@
    background-repeat:no-repeat;
    height: 80vh;
  }
+ .row {
+    margin: 0 auto;
+ }
+ .overviewLeftSide {
+   background-image:url(../images/Group2-1.png);
+   background-size:cover;
+   background-repeat:no-repeat;
+   height: 50vh;
+ }
  /* Here is overview section end */
 
 
