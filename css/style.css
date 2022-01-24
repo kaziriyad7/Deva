@@ -131,6 +131,17 @@
    background-repeat:no-repeat;
    height: 50vh;
  }
+
+ .task {
+    margin: 0 20px 0 0;
+    padding: 10px 0 0 10px;
+    background-color: rgb(223, 83, 83);
+    transition: background .3s;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px 0 rgb(91 63 23);
+    padding: 5px 10px;
+    width: 50%;
+ }
  /* Here is overview section end */
 
 
@@ -142,6 +153,10 @@
     background-size:cover;
     background-repeat:no-repeat;
     height: 100vh;
+ }
+ .cardBody {
+    width: 100%;
+    margin: auto;
  }
  .card-group {
     margin-top: 20px;
@@ -202,19 +217,7 @@
   text-decoration: underline;
 }
 
-.footer .credit{
-  text-align: center;
-  padding:2rem 1rem;
-  margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: normal;
-  color:#fff;
-  border-top: .1rem solid rgba(255,255,255,.2);
-}
 
-.footer .credit span{
-  color:rgb(15, 233, 15);
-}
     /* Here is footer section end */
 
 
