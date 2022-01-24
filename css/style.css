@@ -14,19 +14,39 @@
 /* Here is Header section start */
  .header {
     background-image:url(../images/banner.jpg);
-    height: 500px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100vh;
  }
  .hederButton {
     font-size: 16px;
     letter-spacing: .2px;
     font-family: nunito sans;
     font-weight: 700;
-    padding: 14px 24px;
+    padding: 10px 24px;
     border: 1px solid #8be9e1;
     background: #8be9e1;
     color: #301c6b;
     border-radius: 7px;
-    text-decoration: none!important
+ }
+
+ .hederButton2 {
+    font-size: 16px;
+    letter-spacing: .2px;
+    font-family: nunito sans;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: 1px solid #8be9e1;
+    color: #8be9e1;
+    border-radius: 7px;
+    margin-left: 20px;
+ }
+ .hederButton2:hover {
+   background: #53dbce;
+   color: #301c6b;
+ }
+ .hederButton:hover {
+      background: #53dbce;
  }
  .logoImage{
     max-height: 50px;
@@ -39,4 +59,69 @@
     font-weight: 700;
     letter-spacing: .3px;
  }
+
+
+ .bottomHeader {
+   display: flex;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 60px;
+   flex-wrap: wrap;
+ }
+
+ .rightSideHeader {
+    padding: 0px 20px;
+ }
+ .rightSideHeader img{
+    margin-top: 50px;
+ }
+
+ .leftSideHeader {
+    padding: 0px 20px;
+ }
+ .leftSideHeader h2{
+    color:#ffffff;
+    font-size: 55px;
+    line-height: 1.2;
+    font-family: noto sans;
+    font-weight: 700;
+ }
+ .leftSideHeader p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.4em;
+ }
+
+ .leftHeaderButton {
+    margin: -8px -13px;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+ .worksWith {
+    margin-top: 30px;
+ }
+ .logoImage2 {
+   padding: 0px 10px;
+   height: 20px;
+   width: 45px;
+   margin-top: 22px;
+   cursor:pointer;
+   color:#fff;
+ }
  /* Here is Header section end */
+
+
+
+ /* Here is overview section start */
+ .overview {
+   background-image:url(../images/Section-0.jpg);
+   background-size:cover;
+   background-repeat:no-repeat;
+   height: 80vh;
+ }
+ /* Here is overview section end */
+
+

@@ -1,0 +1,43 @@
+@media (max-width:1200px){
+
+  html{
+    font-size: 55%;
+  }
+
+}
+
+@media (max-width:991px){
+
+  header{
+    padding:2rem;
+  }
+
+  section{
+    padding:2rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+.nav-link {
+    display: none;
+}
+.hederButton {
+    letter-spacing: .2px;
+    font-family: nunito sans;
+    font-weight: 700;
+    padding: 5px 12px;
+    border: 1px solid #8be9e1;
+    background: #8be9e1;
+    color: #301c6b;
+    border-radius: 7px;
+}
+@media (max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
+
+}
+}
