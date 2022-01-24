@@ -51,6 +51,7 @@
  .logoImage{
     max-height: 50px;
     width: auto;
+    cursor:pointer;
  }
  .nav-link {
     color:#ffffff;
@@ -178,46 +179,77 @@
 
 
             /* Here is footer section start */
-.footer{
-  background:rgb(110, 128, 122);
+.footer-area {
+   padding: 90px 0 60px 0;
+   background: #5d21d2;
+   color:#fff;
 }
 
-.footer .box-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1.5rem;
+.footer-social {
+   margin-top: 20px;
 }
 
-.footer .box-container .box{
-  padding:1rem 0;
-  flex:1 1 25rem;
+.single-footer h3{
+   font-weight: 500;
+   margin-bottom: 25px;
+   color:#fff;
+   font-family: Merienda;
 }
 
-.footer .box-container .box h3{
-  font-size: 2.5rem;
-  padding:.7rem 0;
-  color:#fff;
+.link-area li {
+   padding: 5px 5px 5px 0;
+   list-style: none;
+   text-decoration: none;
+   cursor:pointer;
+}
+.link-area li a{
+   text-transform: capitalize;
+   color:rgb(240, 232, 232);
+   font-family: Merienda;
+   text-decoration: none;
 }
 
-.footer .box-container .box p{
-  font-size: 1.5rem;
-  padding:.7rem 0;
-  color:#eee;
+.link-area li a i{
+   margin-right: 10px;
+   color:#f7f3f2;
+   text-decoration: none;
 }
 
-.footer .box-container .box a{
-  display: block;
-  font-size: 1.5rem;
-  padding:.7rem 0;
-  color:#eee;
+.link-area {
+   padding: 0;
+   text-decoration: none;
+}
+.single-footer p {
+   font-family: Merienda;
+}
+.footer-social li a {
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+}
+.footer-social li a i{
+   color:#fff;
+   padding: 8px;
+   font-size: 20px;
+}
+.footer-social li a i:hover{
+   color:rgb(211, 205, 205);
+   padding: 8px;
+}
+.footerInputArea {
+   padding: 10px 15px;
+   border-radius:5px;
+}
+.footerAreaButton {
+   padding: 10px 15px;
+   border-radius:5px;
+   background-color:#53dbce;
+   margin-top: 20px;
 }
 
-.footer .box-container .box a:hover{
-  color:rgb(15, 233, 15);
-  text-decoration: underline;
+.footerAreaButton:hover {
+   background-color:#18e2ce;
 }
-
-
     /* Here is footer section end */
 
 
