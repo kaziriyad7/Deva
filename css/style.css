@@ -199,6 +199,24 @@ h2 {
 }
 /* Here is basic features section end */
 
+
+
+/* Here is call to action section start */
+.main-call-to-action {
+    background-color: #f7f4fd;
+    padding: 34px;
+    border-radius: 15px;
+}
+
+.right-call-action {
+   margin-left: 250px;
+   width: 50%;
+}
+
+.left-call-action {
+    margin-right: 20px;
+}
+/* Here is call to action section end */
 /* Here is pricing section start */
 .pricing-section .pricing-header p {
     width: 50%;
@@ -247,9 +265,9 @@ h2 {
    margin: 0 auto;
    text-align: center;
 }
-
-
 /* Here is pricing section end */
+
+
 
 /* Here is improve section start */
 .improve h1 {
@@ -350,17 +368,4 @@ h2 {
 /* Here is footer section end */
 
 
-.main-call-to-action {
-    background-color: #f7f4fd;
-    padding: 34px;
-    border-radius: 15px;
-}
 
-.main-call-to-action img {
-    width: 280px;
-    height: 258px;
-}
-
-.left-call-action {
-    margin-right: 20px;
-}
