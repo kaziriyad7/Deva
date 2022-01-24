@@ -172,6 +172,14 @@ h2 {
     margin: 0 auto;
 }
 
+.feature-header h2{
+   margin-top: 20px;
+}
+
+.feature-header p{
+   margin-top: 20px;
+}
+
 .feature-card {
     background-color: #f7f4fd;
     padding: 30px;
@@ -180,6 +188,11 @@ h2 {
 }
 .feature-card h2{
    margin-top: 20px;
+}
+.feature-card p{
+   width: 80%;
+   text-align: center;
+   margin: 0 auto;
 }
 .feature-card:not(:last-child) {
     margin-right: 80px;
