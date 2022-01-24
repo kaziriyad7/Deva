@@ -217,6 +217,10 @@ h2 {
     margin-right: 20px;
 }
 /* Here is call to action section end */
+
+
+
+
 /* Here is pricing section start */
 .pricing-section .pricing-header p {
     width: 50%;
@@ -269,6 +273,19 @@ h2 {
 
 
 
+
+/* Here is more features section start */
+.moreFeaturesCards1, .moreFeaturesCards2, .moreFeaturesCards3, .moreFeaturesCards4 {
+   background-color:#18e2ce;
+   border-radius:10px;
+   padding: 35px 30px;
+}
+.moreFeaturesCards1 p, .moreFeaturesCards2 p, .moreFeaturesCards3 p, .moreFeaturesCards4  p{
+   width: 75%;
+}
+/* Here is more features section end */
+
+
 /* Here is improve section start */
 .improve h1 {
     font-size: 48px;
@@ -290,8 +307,10 @@ h2 {
     color: #fff;
     border-radius: 7px;
 }
-
 /* Here is improve section end */
+
+
+
 
 /* Here is footer section start */
 .footer-area {
