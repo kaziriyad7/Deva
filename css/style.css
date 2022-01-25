@@ -227,8 +227,13 @@ h2 {
     margin: 0 auto;
 }
 
-.pricing-header h2 {
-   margin-top: 20px;
+.pricing-section {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pricing-header h1 {
+   margin-top: 100px;
 }
 
 .pricing-header p{
@@ -240,7 +245,6 @@ h2 {
 }
 .card {
     display: flex;
-    background-color: #ddafa3;
     transition: background 0.3s, border 0.3s, border-radius 0.3s,box-shadow 0.3s;
     margin: 0 20px -60px 0;
     padding: 35px 40px 40px;
@@ -260,10 +264,12 @@ h2 {
     margin-right: 50px;
     margin: 0 auto;
 }
-
+.pricingBottomImage {
+    display: flex;
+    justify-content: space-between;
+}
 .pricingBottomImage img {
    display: flex;
-   background: #000;
    height: 100;
    margin-top: 100px;
    margin: 0 auto;
@@ -276,7 +282,6 @@ h2 {
 
 /* Here is more features section start */
 .moreFeaturesCards1, .moreFeaturesCards2, .moreFeaturesCards3, .moreFeaturesCards4 {
-   background-color:#18e2ce;
    border-radius:10px;
    padding: 35px 30px;
 }
