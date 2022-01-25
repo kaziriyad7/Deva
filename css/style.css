@@ -133,13 +133,22 @@ h2 {
     border-radius:8px;
 }
 .right-a-feature {
+    background-image: url(../images/image-197.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color:#e0f0ee;
     position: relative;
+    height: 600px;
+    border-radius:10px;
 }
 .latestUser {
     position: absolute;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 250px;
+}
+.aplicationDesign  {
+    margin-left: 100px;
 }
 /* Here is overview section end */
 
@@ -208,6 +217,11 @@ h2 {
 
 .left-call-action {
     margin-right: 20px;
+}
+
+.workload img{
+    margin-top: 120px;
+    margin-left: 35px;
 }
 /* Here is call to action section end */
 
@@ -282,15 +296,27 @@ h2 {
 .moreFeaturesCards1, .moreFeaturesCards2, .moreFeaturesCards3, .moreFeaturesCards4 {
    border-radius:10px;
    padding: 35px 30px;
-}
-.moreFeaturesCards1 p, .moreFeaturesCards2 p, .moreFeaturesCards3 p, .moreFeaturesCards4  p{
-   width: 75%;
+   background-color:#e0f0ee;
+   border:1px solid black;
+   width: 22%;
+   margin: 0 auto;
 }
 
+.featureSection {
+    background-image: url(../images/Section-0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* Here is more features section end */
 
 
 /* Here is improve section start */
+.improveFeature {
+    background-image: url(../images/Section-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 .improve {
     position: relative;
 }

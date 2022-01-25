@@ -7,8 +7,10 @@
         font-size: 10px;
     }
     .row {
-        margin-top: 1000px;
         text-align: center;
+    }
+    .footer-social li a i {
+        margin-left: 100px;
     }
 }
 
