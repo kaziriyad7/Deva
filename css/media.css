@@ -15,8 +15,39 @@
     .overview-feature {
         margin-top: 100px;
     }
-}
+    .improveImageLeft, .improveImageRight {
+        display: none;
+    }
+    .pricingBottomImage {
+        flex-direction: row;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 
+    .right-call-action {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .left-call-action {
+        display: none;
+    }
+    .right-a-feature  {
+        display: none;
+    }
+    .leftSideHeader h2 {
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .leftHeaderButton {
+        margin: 0px 0px;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
