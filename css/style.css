@@ -289,10 +289,13 @@ h2 {
    margin-top: 100px;
    margin: 0 auto;
    text-align: center;
+   color:#f7f3f2;
+   cursor: pointer;
 }
 .pricingHeading {
     color:#f7f3f2;
 }
+
 /* Here is pricing section end */
 
 
