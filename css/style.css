@@ -162,7 +162,7 @@ h2 {
     display: inline-block;
     margin: 0;
     padding: 15px 20px 11px;
-    background-color: #dbd9df;
+    background-color: #f7f4fd;
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     color: #763de7;
@@ -248,7 +248,7 @@ h2 {
 
 .pricing-header p {
    margin-top: 20px;
-   color:#fff;
+   color:#f7f3f2;
 }
 
 .pricing-header h2{
@@ -290,6 +290,9 @@ h2 {
    margin: 0 auto;
    text-align: center;
 }
+.pricingHeading {
+    color:#f7f3f2;
+}
 /* Here is pricing section end */
 
 
@@ -299,9 +302,20 @@ h2 {
 .moreFeaturesCards1, .moreFeaturesCards2, .moreFeaturesCards3, .moreFeaturesCards4 {
    border-radius:10px;
    padding: 35px 30px;
-   background-color:#e0f0ee;
    width: 22%;
    margin: 0 auto;
+}
+.moreFeaturesCards1 {
+    background-color:#f7f4fd;
+}
+.moreFeaturesCards2 {
+    background-color:#f1f3ff;
+}
+.moreFeaturesCards3 {
+    background-color:#fcf1ff;
+}
+.moreFeaturesCards4 {
+    background-color:#f4effb;
 }
 
 .featureSection {
