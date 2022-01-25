@@ -122,31 +122,24 @@ h2 {
 /* Here is Header section end */
 
 /* Here is overview section start */
-.overview {
+.overview-feature {
     background-image: url(../images/Section-0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
 }
-.row {
-    margin: 0 auto;
+.task, .Messaging, .Results, .Support{
+    background-color:#e0f0ee;
+    border-radius:8px;
 }
-.overviewLeftSide {
-    background-image: url(../images/Group2-1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
+.right-a-feature {
+    background-color:#e0f0ee;
+    position: relative;
 }
-
-.task {
-    margin: 0 20px 0 0;
-    padding: 10px 0 0 10px;
-    background-color: rgb(223, 83, 83);
-    transition: background 0.3s;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 0 10px 0 rgb(91 63 23);
-    padding: 5px 10px;
-    width: 50%;
+.latestUser {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 /* Here is overview section end */
 
@@ -236,7 +229,12 @@ h2 {
    margin-top: 100px;
 }
 
-.pricing-header p{
+.pricing-header p {
+   margin-top: 20px;
+   color:#fff;
+}
+
+.pricing-header h2{
    margin-top: 20px;
 }
 
